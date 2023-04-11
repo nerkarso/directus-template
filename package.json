@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "directus start",
+    "debug": "NODE_OPTIONS='--inspect' directus start",
+    "bootstrap": "directus bootstrap",
+    "db:update": "directus database migrate:latest",
+    "security": "{ npx directus security key:generate && echo '' && npx directus security secret:generate; } >> security.txt"
+  },
+  "dependencies": {
+    "directus": "9.24.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
