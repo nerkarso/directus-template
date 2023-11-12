@@ -2,10 +2,9 @@
 
 ## Requirements
 
-- Node.js
-- pnpm
-- MySQL (Production)
-- SQLite (Development)
+- Node.js `v18.x`
+- pnpm `v8.x`
+- MySQL `v2.x`
 
 ## Getting Started
 
@@ -104,10 +103,6 @@ Example:
 
 You can use [Ethereal](https://ethereal.email) (fake SMTP service) to setup email support.
 
-- Name: Kirstin Ziemann
-- Username: kirstin.ziemann@ethereal.email
-- Password: Vycf7QtMDtWJzbuFZC
-
 ### SMTP configuration
 
 - Host: smtp.ethereal.email
@@ -116,12 +111,12 @@ You can use [Ethereal](https://ethereal.email) (fake SMTP service) to setup emai
 
 ### IMAP configuration
 
-- Host:	imap.ethereal.email
-- Port:	993
+- Host: imap.ethereal.email
+- Port: 993
 - Security:	TLS
 
 ### POP3 configuration
 
-- Host:	pop3.ethereal.email
-- Port:	995
+- Host: pop3.ethereal.email
+- Port: 995
 - Security:	TLS
