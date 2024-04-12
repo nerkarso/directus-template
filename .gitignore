@@ -15,6 +15,7 @@ out
 !.env.example
 
 # storage
+.registry
 data.db
 uploads
 snapshots
