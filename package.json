@@ -2,8 +2,7 @@
   "scripts": {
     "start": "directus start",
     "bootstrap": "directus bootstrap",
-    "migrate": "directus database migrate:latest",
-    "security": "{ npx directus security key:generate && echo '' && npx directus security secret:generate; } >> security.txt"
+    "migrate": "directus database migrate:latest"
   },
   "dependencies": {
     "directus": "10.10.5",
